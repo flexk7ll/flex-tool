@@ -1,4 +1,5 @@
-LICENSE="hi" 
+LICENSE = """ by FLEX TEAM
+ Discord Server: https://discord.gg/rees7q7qX4  """
 import time
 import os
 
