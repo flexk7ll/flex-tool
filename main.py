@@ -14,7 +14,7 @@ except ImportError as ex:
     input(f"Module {ex.name} not installed, to install run '{'python' if os.name == 'nt' else 'python3.8'} -m pip install {ex.name}'\nPress enter to exit")
     exit()
 
-response = requests.get("https://raw.githubusercontent.com/logicguy1/The-all-in-one-discord-tool/main/version.txt")
+response = requests.get("https://raw.githubusercontent.com/flexk7ll/flex-tool/main/version.txt")
 
 with open("version.txt", "r") as file:
     curVersion = file.read().strip()
